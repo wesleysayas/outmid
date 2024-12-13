@@ -4,12 +4,15 @@
     "description": "OutMid browser project",
     "main": "src/main.js",
     "scripts": {
-      "start": "electron ."
+        "start": "electron ."
     },
     "author": "Wesley Sayas (szldept.co)",
     "license": "UNLICENSED",
     "devDependencies": {
-      "electron": "^26.2.1"
-    }
-  }
-  
+        "electron": "^26.2.1"
+    },
+    "dependencies": {
+        "ipfs-http-client": "^60.0.1"
+    },
+    "type": "module"
+}
